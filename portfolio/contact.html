@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Contact Me!</h1>
+        </header>
+        <nav>
+            <p><a href="index.html" class="btn badge-pill">Home</a></p>
+            <p><a href="projects.html" class="btn badge-pill">Projects</a></p>
+            <p><a href="testimonials.html" class="btn badge-pill">Testimonials</a></p>
+            <p><a href="contact.html" class="btn badge-pill">Contact</a></p>
+            <div class="clear-float"></div>
+        </nav>
+        <h3>Request Information</h3>
+        <form action="contactSubmitted.html" method="POST">
+            <label for="firstName">First Name:</label><br>
+            <input type="text" name="firstName" required><br>
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" name="lastName" required><br>
+            <label for="email">Email:</label><br>
+            <input type="text" name="email" required><br>
+            <fieldset>
+                <legend>I am interested in (check all that apply):</legend>
+                <input type="checkbox" name="frontEnd" value="Front End">
+                <label for="frontEnd">Front-End Web Development</label><br>
+                <input type="checkbox" name="backEnd" value="Back End">
+                <label for="backEnd">Back-end Web Development</label><br>
+                <input type="checkbox" name="fullStack" value="Full Stack">
+                <label for="fullStack">Full-Stack Web Development</label><br>
+            </fieldset>
+            <fieldset>
+                <legend>How&#39;d you hear about us?:</legend>
+                <input type="radio" id="choice1" name="channel" value="google" checked>
+                <label for="google">Google</label><br>
+                <input type="radio" id="choice2" name="channel" value="instagram">
+                <label for="instagram">Instagram</label><br>
+                <input type="radio" id="choice3" name="channel" value="wordOfMouth">
+                <label for="wordOfMouth">Word of Mouth</label><br>
+                <input type="radio" id="choice4" name="channel" value="other">
+                <label for="other">Other</label>
+            </fieldset>
+
+            Additional Details:<br>
+            <textarea rows="2" cols="50" name="messageInput">
+            </textarea><br>
+            <input type="submit"><input type="reset"><br>
+        </form>
+        <footer>
+            <p>&copy; 2023 Maggie Buchanan. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

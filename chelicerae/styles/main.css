@@ -1,0 +1,6 @@
+.warning{
+    color: white;
+}
+.warning:hover {
+    color: red;
+}
