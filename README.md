@@ -6,4 +6,3 @@
 - 💬 Ask me about the magnus archives, or the mistborn series!
 - 📫 How to reach me:  [Email](maggiebuchanan101@gmail.com) [LinkedIn](https://www.linkedin.com/in/maggie-buchanan-846132106/)
 - ⚡ Fun fact: i love learning about different languages! over the years ive studied spanish, korean, japanese, german, and italian!
-
